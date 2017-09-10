@@ -15,6 +15,9 @@ public class AnimalRunner {
 		Trout threeFish = new Trout("Erie", 10, true, true);
 		Salmon fourFish = new Salmon("Colorado", 7, true, 40);
 		
+		//Bear Instances
+		Bear oneBear = new Bear("rough", 12, true);
+		
 		//Bird Actions
 		oneBird.printDetails();
 		
@@ -42,6 +45,15 @@ public class AnimalRunner {
 		
 		fourFish.printDetails();
 		fourFish.jumpHigh();
+		
+		//-------
+		System.out.println("");
+		System.out.println("----------");
+		System.out.println("");
+		//-------
+		
+		//Bear Actions
+		oneBear.printDetails();
 	}
 
 }
