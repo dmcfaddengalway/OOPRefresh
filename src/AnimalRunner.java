@@ -17,6 +17,9 @@ public class AnimalRunner {
 		
 		//Bear Instances
 		Bear oneBear = new Bear("rough", 12, true);
+		Bear twoBear = new BlackBear("thick", 9, true, false);
+		BrownBear threeBear = new BrownBear("coarse", 14, false, "Grrrrr!! Rawr!!");
+		BlackBear fourBear = new BlackBear("thin", 22, true, true);
 		
 		//Bird Actions
 		oneBird.printDetails();
@@ -54,6 +57,15 @@ public class AnimalRunner {
 		
 		//Bear Actions
 		oneBear.printDetails();
+		oneBear.checkHumanScared();
+		
+		twoBear.printDetails();
+		twoBear.growl();
+		
+		threeBear.printDetails();
+		threeBear.growlIntensity();
+		
+		fourBear.printDetails();
 	}
 
 }
