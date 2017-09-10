@@ -11,6 +11,7 @@ public class Salmon extends Fish {
 	}
 	
 	//Methods
+	
 	public void printDetails() {
 		System.out.println("This fish lives in: " + region + " and has " + gills + " gills. This fish having "
 				+ "whiskers is: " + whiskers + ". It can jump up to " + recordJumpHeight + " feet high.");
