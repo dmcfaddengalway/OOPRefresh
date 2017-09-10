@@ -2,7 +2,7 @@
 public class Robin extends Bird {
 	
 	//Instance Variables
-	String beakType = "";
+	String beakType;
 
 	//Constructor
 	public Robin(String breed, int age, int maxSpeed, String beakType) {

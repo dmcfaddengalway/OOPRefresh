@@ -11,6 +11,9 @@ public class AnimalRunner {
 		
 		//Fish Instances
 		Fish oneFish = new Fish("Alaska", 6, true);
+		Fish twoFish = new Trout("Mississippi", 12, false, false);
+		Trout threeFish = new Trout("Erie", 10, true, true);
+		Salmon fourFish = new Salmon("Colorado", 7, true, 40);
 		
 		//Bird Actions
 		oneBird.printDetails();
@@ -24,11 +27,21 @@ public class AnimalRunner {
 		fourBird.swoopExtraFood();
 		
 		//-------
-		System.out.println();
+		System.out.println("");
+		System.out.println("----------");
+		System.out.println("");
 		//-------
 		
 		//Fish Actions
 		oneFish.printDetails();
+		
+		twoFish.printDetails();
+		
+		threeFish.printDetails();
+		threeFish.diveDeep();
+		
+		fourFish.printDetails();
+		fourFish.jumpHigh();
 	}
 
 }

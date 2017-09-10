@@ -2,9 +2,9 @@
 public class Bird {
 	
 	//Instance Variables
-	public String breed = "";
-	public int age = 0;
-	public int maxSpeed = 0;
+	public String breed;
+	public int age;
+	public int maxSpeed;
 	
 	//Constructor
 	public Bird(String breed, int age, int maxSpeed) {

@@ -2,7 +2,7 @@
 public class HummingBird extends Bird {
 	
 	//Instance Variables
-	int flapsPerMinute = 0;
+	int flapsPerMinute;
 	
 	//Constructors
 	public HummingBird(String breed, int age, int maxSpeed, int flaps) {

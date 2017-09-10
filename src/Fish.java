@@ -2,9 +2,9 @@
 public class Fish {
 	
 	//Instance Variables
-	String region = "";
-	int gills = 0;
-	boolean whiskers = true;
+	String region;
+	int gills;
+	boolean whiskers;
 	
 	//Constructor
 	public Fish(String region, int gills, boolean whiskers) {
