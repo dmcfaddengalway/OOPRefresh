@@ -21,6 +21,10 @@ public class AnimalRunner {
 		BrownBear threeBear = new BrownBear("coarse", 14, false, "Grrrrr!! Rawr!!");
 		BlackBear fourBear = new BlackBear("thin", 22, true, true);
 		
+		//Dog Instances
+		Dog oneDog = new Dog("Amber", 100, "tennis ball");
+		GoldenRetriever twoDog = new GoldenRetriever("Alpha", 100, "giving kisses", true);
+		
 		//Bird Actions
 		oneBird.printDetails();
 		
@@ -66,6 +70,19 @@ public class AnimalRunner {
 		threeBear.growlIntensity();
 		
 		fourBear.printDetails();
+		
+		//-------
+		System.out.println("");
+		System.out.println("----------");
+		System.out.println("");
+		//-------
+		
+		//Dog Actions
+		oneDog.printDetails();
+		oneDog.bark();
+		
+		twoDog.printDetails();
+		twoDog.fetchBall();
 	}
 
 }
