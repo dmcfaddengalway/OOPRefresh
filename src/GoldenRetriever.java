@@ -28,6 +28,13 @@ public class GoldenRetriever extends Dog implements Dogs {
 	
 	//Methods
 	
+	@Override
+	public void printDetails() {
+		System.out.println("A good boy. Very good. This doggo\'s name is " + name + ". His cutness factor "
+				+ "is: " + cutenessFactor + " and his favourtie acitvity is: " + favouriteActivity + ". It is "
+						+ puppyEyes + " that his puppy dog eyes are being used on you right now.");
+	}
+	
 	public void fetchBall() {
 		System.out.println("The dog runs after the tennis ball!");
 	}

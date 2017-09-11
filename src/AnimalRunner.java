@@ -70,6 +70,7 @@ public class AnimalRunner {
 		threeBear.growlIntensity();
 		
 		fourBear.printDetails();
+		fourBear.growlIntensity();
 		
 		//-------
 		System.out.println("");
