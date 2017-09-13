@@ -23,7 +23,8 @@ public class AnimalRunner {
 		
 		//Dog Instances
 		Dog oneDog = new Dog("Amber", 100, "tennis ball");
-		GoldenRetriever twoDog = new GoldenRetriever("Alpha", 100, "giving kisses", true);
+		Dog twoDog = new GoldenRetriever("Alpha", 100, "giving kisses", true);
+		GoldenRetriever threeDog = new GoldenRetriever("Rex", 100, "lounging", true);
 		
 		//Bird Actions
 		oneBird.printDetails();
@@ -83,7 +84,9 @@ public class AnimalRunner {
 		oneDog.bark();
 		
 		twoDog.printDetails();
-		twoDog.fetchBall();
+		
+		threeDog.printDetails();
+		threeDog.fetchBall();
 	}
 
 }
