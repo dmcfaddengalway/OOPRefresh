@@ -25,6 +25,7 @@ public class AnimalRunner {
 		Dog oneDog = new Dog("Amber", 100, "tennis ball");
 		Dog twoDog = new GoldenRetriever("Alpha", 100, "giving kisses", true);
 		GoldenRetriever threeDog = new GoldenRetriever("Rex", 100, "lounging", true);
+		Bernese fourDog = new Bernese("Sammy", 1000, "swimming", true);
 		
 		//Bird Actions
 		oneBird.printDetails();
@@ -87,6 +88,9 @@ public class AnimalRunner {
 		
 		threeDog.printDetails();
 		threeDog.fetchBall();
+		
+		fourDog.printDetails();
+		fourDog.swim();
 	}
 
 }
