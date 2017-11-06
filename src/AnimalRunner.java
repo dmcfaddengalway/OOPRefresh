@@ -39,9 +39,7 @@ public class AnimalRunner {
 		fourBird.swoopExtraFood();
 		
 		//-------
-		System.out.println("");
-		System.out.println("----------");
-		System.out.println("");
+		System.out.println("\n----------\n");
 		//-------
 		
 		//Fish Actions
@@ -56,9 +54,7 @@ public class AnimalRunner {
 		fourFish.jumpHigh();
 		
 		//-------
-		System.out.println("");
-		System.out.println("----------");
-		System.out.println("");
+		System.out.println("\n----------\n");
 		//-------
 		
 		//Bear Actions
@@ -75,9 +71,7 @@ public class AnimalRunner {
 		fourBear.growlIntensity();
 		
 		//-------
-		System.out.println("");
-		System.out.println("----------");
-		System.out.println("");
+		System.out.println("\n----------\n");
 		//-------
 		
 		//Dog Actions
